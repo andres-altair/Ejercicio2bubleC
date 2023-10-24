@@ -12,7 +12,8 @@ namespace Ejercicio2bubleC
         static  void Main(string[] args)
         {
             pedirI pI = new pedirC();
-            
+            double pri = pI.pedir();
+            int seg = int.(pI.pedir());
 
         }
     }
