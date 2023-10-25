@@ -8,11 +8,31 @@ namespace Ejercicio2bubleC.Servicios
     {
         internal class pedirC : pedirI
         {
-            public double pedir()
+            public double pedir(int k)
             {
-                Console.WriteLine("escribe un numero entero");
-                double a = Convert.ToInt32(Console.ReadLine());
-                return a;
+                if (k < 0) { Console.WriteLine("escribe un numero double"); }
+                else { Console.WriteLine("escribe un numero entero"); }
+                double num = Convert.ToDouble(Console.ReadLine());  
+                return num;
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            //Console.WriteLine("escribe un numero entero");
+                //double a = Convert.ToInt32(Console.ReadLine());
+                //return a;
             }
         }
     }

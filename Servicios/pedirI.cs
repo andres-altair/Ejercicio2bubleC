@@ -18,6 +18,6 @@ namespace Ejercicio2bubleC.Servicios
         /// 231023-amd
         /// </summary>
         /// <returns>entero</returns>
-        public double pedir();
+        public double pedir(int k);
     }
 }

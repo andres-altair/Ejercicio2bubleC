@@ -11,6 +11,10 @@ namespace Ejercicio2bubleC.Servicios
     /// </summary>
     internal interface bucleI
     {
-        public void bucle();
+        /// <summary>
+        /// metodo que se encargar de hacer una potencia con bucle
+        /// 251023-amd
+        /// </summary>
+        public void bucle(double n1, int n2);
     }
 }
