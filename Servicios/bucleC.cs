@@ -15,9 +15,9 @@ namespace Ejercicio2bubleC.Servicios
             {
                 if (!cerrar)
                 {
-                    Math.Exp(n1) + Math.Exp(n2);
+                    Math.Pow(n1, n2);
                 }
-                else (cerrar = true){ }
+                
 
                 
                 

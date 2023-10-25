@@ -10,8 +10,8 @@ namespace Ejercicio2bubleC.Servicios
         {
             public double pedir(int k)
             {
-                if (k < 0) { Console.WriteLine("escribe un numero double"); }
-                else { Console.WriteLine("escribe un numero entero"); }
+                if (k = 0) { Console.WriteLine("escribe un numero double"); }
+                else (k = 1){ Console.WriteLine("escribe un numero entero"); }
                 double num = Convert.ToDouble(Console.ReadLine());  
                 return num;
                 
@@ -19,18 +19,7 @@ namespace Ejercicio2bubleC.Servicios
             
             
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            //Console.WriteLine("escribe un numero entero");
+                //Console.WriteLine("escribe un numero entero");
                 //double a = Convert.ToInt32(Console.ReadLine());
                 //return a;
             }
