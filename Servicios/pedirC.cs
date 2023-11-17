@@ -11,7 +11,7 @@ namespace Ejercicio2bubleC.Servicios
             public double pedir(int k)
             {
                 if (k = 0) { Console.WriteLine("escribe un numero double"); }
-                else (k = 1){ Console.WriteLine("escribe un numero entero"); }
+                else (k = 1) { Console.WriteLine("escribe un numero entero"); }
                 double num = Convert.ToDouble(Console.ReadLine());  
                 return num;
                 
